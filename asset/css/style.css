@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "Roberto Regular" ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Roberto Bold" ;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+
+body{
+    font-family: "Roberto Regular" ;
+    margin: 0;
+
+}
+
+
+h1,h2{
+    font-family: "Roberto Bold" ;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+footer{
+    background-color: rgb(35, 34, 34);
+    text-align: center;
+    padding: 50px 30px ;
+    width: 100vw;
+    color: white;
+}
+
+
+
+.block1{
+    text-align: center;
+    padding: 120px 30px ;
+    width: 100vw;
+    color: white;
+    background-image: url(../img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px gray;
+
+
+}
+
+
+.btn{
+    display: inline-block;
+    color: black ;
+    border-radius: 100px;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    overflow: hidden;
+    font-family: "Roberto Bold" ;
+}
+
+.btn:hover{
+    color:white;
+    background-color: black;
+}
+
+.block2{
+    text-align: center;
+    color: black;
+    padding: 50px 400px 70px ;
+    line-height: 2rem;
+    
+    
+
+
+}
+#parag{
+    color: gray;
+}
+
+.btn2{
+    display: inline-block;
+    color: white;
+    border-radius: 100px;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 35px;
+    overflow: hidden;
+    font-family: "Roberto Bold" ;
+}
+
+.btn2:hover:hover{
+    color: black;
+    background-color: gray;
+}
+
+
+
+
+.photo{
+    height: 700px;
+    width: 100vw;
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px gray;
+
+}
+
